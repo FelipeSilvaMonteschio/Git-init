@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/image-01.jpg");
+    background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,6 +15,17 @@ body {
 }
 
 button {
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #21201e;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
