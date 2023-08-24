@@ -1,3 +1,20 @@
 body {
     background-image: url("/images/image-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#maclaren {
+    width: 100vh;
+    height: 50vh;
+    margin-left: 45vh;
+}
+
+.conteiner {
+    display: block;
+}
+
+button {
+    height: 30px;
+    width: 60px;
 }
